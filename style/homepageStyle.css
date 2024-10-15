@@ -51,3 +51,13 @@ body {
     top: 10px;
     right: -50px;
 }
+
+.container-footer ul{
+    list-style-type: none;
+}
+
+.container-footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
