@@ -61,3 +61,15 @@ body {
     text-decoration: none;
     font-size: 20px;
 }
+
+.content-contact-footer a{
+    font-size: clamp(12px, 5vw, 21px);
+}
+
+.content-social-footer a{
+    font-size: clamp(12px, 5vw, 21px);
+}
+
+.content-product-footer a{
+    font-size: clamp(12px, 5vw, 21px);
+}

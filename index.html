@@ -22,42 +22,49 @@
 
             <!-- CONTAINER NAVBAR -->
             <div class="container-navbar">
-                <div class="" style="border-bottom: 3px solid white;">
-                    <nav class="navbar navbar-expand-lg" style="padding: 0px !important;">
-                        <div class="container-fluid d-flex px-5">
-                            <a class="navbar-brand text-light" href="#">
-                                <img src="./assets/logo_bangcourse.png" alt="Bootstrap" width="30" height="30">
-                                BangCourse
-                            </a>
-                            <button class="navbar-toggler my-3" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-                                aria-expanded="false" aria-label="Toggle navigation" data-bs-theme="dark"
-                                style="border-color: #dee2e6;">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                                <div class="navbar-nav gap-3">
-                                    <a class="nav-link text-light px-4 py-3" href="#">Home</a>
-                                    <a class="nav-link text-light px-4 py-3" href="#">About Us</a>
-                                    <a class="nav-link text-light px-4 py-3" href="#">Course</a>
-                                    <a class="nav-link text-light px-4  py-3" href="#">Contact</a>
-                                    <a class="nav-link text-dark px-4 py-3" href="#"
-                                        style="background-color: white;">Login</a>
-                                </div>
-                            </div>
+        <div style="border-bottom: 3px solid white;">
+            <nav class="navbar" data-bs-theme="dark">
+                <div class="container-fluid px-5">
+                    <a class="navbar-brand text-light" href="#">
+                        <img src="./assets/logo_bangcourse.png" alt="Bootstrap" width="30" height="30">
+                        BangCourse
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"
+                        style="border-color: #dee2e6;">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title text-light" id="offcanvasNavbarLabel">BangCourse</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
                         </div>
-                    </nav>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <a class="nav-link text-light px-4 py-3" href="#" style="font-weight: 500;">Home</a>
+                                <a class="nav-link text-light px-4 py-3" href="#" style="font-weight: 500;">About Us</a>
+                                <a class="nav-link text-light px-4 py-3" href="#" style="font-weight: 500;">Course</a>
+                                <a class="nav-link text-light px-4  py-3" href="#" style="font-weight: 500;">Contact</a>
+                                <a class="nav-link text-dark px-4 py-3" href="#"
+                                    style="background-color: white; font-weight: bold;">Login</a>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </nav>
+        </div>
+    </div>
 
             <!-- CONTAINER TEKS PEMBUKAAN -->
             <div class="container-company-teks">
                 <div class="container-fluid">
                     <div class="row px-5">
                         <div class="col-md-8 d-flex flex-column justify-content-center gap-3" style="height: 90vh;">
-                            <h1 class="text-light" style="font-weight: 700; font-size: min(8vw, 2rem);">Buka pintu
+                            <h1 class="text-light" style="font-weight: 700; font-size: clamp(25px, 5vw, 43px);">Buka pintu
                                 karirmu dengan teknologi.</h1>
-                            <h3 class="text-light" style="font-weight: 100; font-size: min(6vw, 1.5rem);">Siap untuk
+                            <h3 class="text-light" style="font-weight: 100; font-size: clamp(18px, 5vw, 23px);">Siap untuk
                                 menghadapi tantangan dunia
                                 digital? Bergabunglah dengan
                                 komunitas belajar kami dan dapatkan pengetahuan mendalam tentang teknologi terkini dari
@@ -87,10 +94,10 @@
                     </div>
                     <div class="col-md-8 d-flex flex-column gap-4 justify-content-center px-1 py-5">
                         <div class="col-md-12">
-                            <h1 class="text-light" style="font-size: min(8vw, 2.3rem);">Tentang kami</h1>
+                            <h1 class="text-light" style="font-size: clamp(25px, 5vw, 40px);">Tentang kami</h1>
                         </div>
                         <div class="col-md-12">
-                            <h1 class="text-light" style="font-size: min(6vw, 1.5rem); font-weight: 100;">Lorem ipsum
+                            <h1 class="text-light" style="font-size: clamp(16px, 5vw, 23px); font-weight: 100;">Lorem ipsum
                                 dolor sit amet consectetur, adipisicing elit. Vero, assumenda doloribus. Sequi vel est
                                 soluta excepturi maiores blanditiis beatae consequuntur magnam rem, non nesciunt
                                 perferendis recusandae tempore quaerat pariatur provident? Lorem ipsum dolor sit amet
@@ -107,7 +114,7 @@
 
         <!-- CONTAINER HIGHLIGHT PRODUCT -->
         <div class="container-highlight-product"
-            style="height: 100%; background-color: #001938; width: 100%; margin: 250px 0px;">
+            style="height: 100%; background-color: #001938; width: 100%; margin: 100px 0px;">
 
             <div class="text-our-course d-flex justify-content-center align-items-center">
                 <h1 class="text-light">Kursus Kami</h1>
@@ -119,12 +126,12 @@
                         <div class="card highlight-background">
                             <div
                                 class="card-head d-flex justify-content-center align-items-center py-3 px-3 text-center px-2">
-                                <h5 style="font-weight: 700; font-size: min(3vw, 1.2rem)">Kursus Unggulan!</h5>
+                                <h5 style="font-weight: 700; font-size: clamp(16px, 5vw, 21px)">Kursus Unggulan!</h5>
                             </div>
                             <img src="./assets/foto_product.png" class="card-img-top" alt="gambar kursus">
                             <div class="card-body">
                                 <h4 class="card-title d-flex justify-content-center align-items-center"
-                                    style="font-weight: 700; font-size: min(3vw, 1.3rem)">Rp200.000</h4>
+                                    style="font-weight: 700; font-size: clamp(20px, 5vw, 21px)">Rp200.000</h4>
                             </div>
                         </div>
                     </a>
@@ -134,12 +141,12 @@
                         <div class="card highlight-background">
                             <div
                                 class="card-head d-flex justify-content-center align-items-center py-3 px-3 text-center px-2">
-                                <h5 style="font-weight: 700; font-size: min(3vw, 1.2rem)">Kursus Paling Laris!</h5>
+                                <h5 style="font-weight: 700; font-size: clamp(16px, 5vw, 21px)">Kursus Paling Laris!</h5>
                             </div>
                             <img src="./assets/foto_product.png" class="card-img-top" alt="gambar kursus">
                             <div class="card-body">
                                 <h4 class="card-title d-flex justify-content-center align-items-center"
-                                    style="font-weight: 700; font-size: min(3vw, 1.3rem)">Rp200.000</h4>
+                                    style="font-weight: 700; font-size: clamp(20px, 5vw, 23px)">Rp200.000</h4>
                             </div>
                         </div>
                     </a>
@@ -149,12 +156,12 @@
                         <div class="card highlight-background">
                             <div
                                 class="card-head d-flex justify-content-center align-items-center py-3 px-3 text-center px-2">
-                                <h5 style="font-weight: 700; font-size: min(3vw, 1.2rem)">Kursus Unggulan!</h5>
+                                <h5 style="font-weight: 700; font-size: clamp(16px, 5vw, 21px)">Kursus Unggulan!</h5>
                             </div>
                             <img src="./assets/foto_product.png" class="card-img-top" alt="gambar kursus">
                             <div class="card-body">
                                 <h4 class="card-title d-flex justify-content-center align-items-center"
-                                    style="font-weight: 700; font-size: min(3vw, 1.3rem)">Rp200.000</h4>
+                                    style="font-weight: 700; font-size: clamp(20px, 5vw, 23px)">Rp200.000</h4>
                             </div>
                         </div>
                     </a>
@@ -162,8 +169,8 @@
             </div>
 
             <div class="exlpore-btn d-flex justify-content-center align-items-center">
-                <a href="#" class="text-decoration-none py-2 px-4 rounded text-dark fs-5"
-                    style="background-color: white; font-weight: bold; margin-top: 60px;">
+                <a href="#" class="text-decoration-none py-2 px-4 rounded text-dark"
+                    style="background-color: white; font-weight: bold; margin-top: 60px; font-size: clamp(15px, 5vw, 21px);">
                     Lihat Semua
                 </a>
             </div>
@@ -172,34 +179,34 @@
 
         <!-- CONTAINER CONTACT US -->
         <div class="container-contact-us highlight-background mt-5"
-            style="border-top-left-radius: 60px; border-top-right-radius: 60px; background-color: #001938; padding: 100px 0px;">
+            style="border-top-left-radius: 60px; border-top-right-radius: 60px; background-color: #001938; padding: 70px 0px;">
             <div class="header-contact-us d-flex text-light flex-column align-items-center">
                 <div class="logo-bangcourse">
-                    <img src="./assets/bangcourse_logo.png" alt="logo bangcourse" width="50px">
+                    <img src="./assets/bangcourse_logo.png" alt="logo bangcourse" style="width: clamp(40px, 5vw, 50px);">
                 </div>
                 <div class="text-hubungi-kami">
-                    <h1>Hubungi Kami</h1>
+                    <h1 style="font-size: clamp(25px, 5vw, 30px)">Hubungi Kami</h1>
                 </div>
             </div>
-            <div class="content-contact-us mt-5">
-                <div class="row p-5">
-                    <div class="container-map col-xl-7 d-flex justify-content-center">
+            <div class="content-contact-us mt-3">
+                <div class="row d-flex gap-5">
+                    <div class="container-map col-xl-8 d-flex justify-content-center px-5 align-items-center">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!4v1728977281321!6m8!1m7!1sPD-ElAFx7i9WS6rR7h9vmQ!2m2!1d-8.211861392616347!2d114.3504445984287!3f116.18657561918694!4f1.8282173424792063!5f0.4000000000000002"
-                            width="90%" height="600" style="border: 3px solid white;" allowfullscreen="" loading="lazy"
+                            width="100%" height="500" style="border: 3px solid white;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade" class="rounded-4">
                         </iframe>
                     </div>
-                    <div class="container-content-contact col-xl-4 mx-5" style="border: 2px solid white;">
-                        <div class="content-contact text-light d-flex flex-column gap-4 py-5 px-5 rounded-4">
+                    <div class="container-content-contact col-xl-3 rounded-4" style="border: 2px solid white;">
+                        <div class="content-contact text-light d-flex flex-column gap-4 py-5 px-4">
                             <div class="desc-contact">
-                                <p>Ada yang mau ditanyakan ? <br>Hubungi kami melalui di bawah ini.</p>
+                                <p style="font-size: clamp(10px, 5vw, 22px)">Ada yang mau ditanyakan ? <br>Hubungi kami melalui di bawah ini.</p>
                             </div>
     
                             <a href="#" class="text-light text-decoration-none">
                                 <div class="container-telepon d-flex gap-3">
                                     <div class="icon-telepon">
-                                        <img src="./assets/telephone.png" alt="Telepon Icon" width="35px">
+                                        <img src="./assets/telephone.png" alt="Telepon Icon" style="width: clamp(25px, 5vw, 34px);">
                                     </div>
                                     <div class="content-telepon">
                                         <p>+62 821 2345 6789</p>
@@ -210,7 +217,7 @@
                             <a href="#" class="text-light text-decoration-none">
                                 <div class="container-whatsapp d-flex gap-3">
                                     <div class="icon-whatsapp">
-                                        <img src="./assets/whatsapp.png" alt="Telepon Icon" width="35px">
+                                        <img src="./assets/whatsapp.png" alt="Telepon Icon" style="width: clamp(25px, 5vw, 34px);">
                                     </div>
                                     <div class="content-whatsapp">
                                         <p>WhatsApp 2</p>
@@ -221,7 +228,7 @@
                             <a href="#" class="text-light text-decoration-none">
                                 <div class="container-whatsapp d-flex gap-3">
                                     <div class="icon-whatsapp">
-                                        <img src="./assets/whatsapp.png" alt="Telepon Icon" width="35px">
+                                        <img src="./assets/whatsapp.png" alt="Telepon Icon" style="width: clamp(25px, 5vw, 34px);">
                                     </div>
                                     <div class="content-whatsapp">
                                         <p>WhatsApp 2</p>
@@ -232,7 +239,7 @@
                             <a href="#" class="text-light text-decoration-none">
                                 <div class="container-location d-flex gap-3">
                                     <div class="icon-location">
-                                        <img src="./assets/maps-and-flags.png" alt="Telepon Icon" width="35px">
+                                        <img src="./assets/maps-and-flags.png" alt="Telepon Icon" style="width: clamp(25px, 5vw, 34px);">
                                     </div>
                                     <div class="content-location">
                                         <p>111 Jl. Wijaya Kusuma, Jawa Timur</p>
@@ -244,13 +251,13 @@
     
                             <div class="container-social-media d-flex justify-content-center align-items-center gap-5">
                                 <a href="#">
-                                    <img src="./assets/youtube.png" alt="Youtube Icon" width="35px">
+                                    <img src="./assets/youtube.png" alt="Youtube Icon" style="width: clamp(25px, 5vw, 34px);">
                                 </a>
                                 <a href="#">
-                                    <img src="./assets/twitter.png" alt="Twitter Icon" width="35px">
+                                    <img src="./assets/twitter.png" alt="Twitter Icon" style="width: clamp(25px, 5vw, 34px);">
                                 </a>
                                 <a href="#">
-                                    <img src="./assets/instagram.png" alt="Instagram Icon" width="35px">
+                                    <img src="./assets/instagram.png" alt="Instagram Icon" style="width: clamp(25px, 5vw, 34px);">
                                 </a>
                             </div>
                         </div>
@@ -261,52 +268,52 @@
 
         <!-- CONTAINER FOOTER -->
         <div class="container-footer px-5 text-light" style="background-color: #000E1F;">
-            <div class="row" style="padding: 100px 0px 120px; border-bottom: 3px solid white;">
-                <div class="col-xl-5 d-flex flex-column gap-4">
+            <div class="row gap-5" style="padding: 100px 0px 50px; border-bottom: 3px solid white; ">
+                <div class="col-xl-4 d-flex flex-column gap-4">
                     <div class="web-logo d-flex align-items-center gap-2">
-                        <img src="./assets/bangcourse_logo.png" alt="Logo BangCourse" width="75px">
-                        <h1 style="font-weight: bold;">BangCourse</h1>
+                        <img src="./assets/bangcourse_logo.png" alt="Logo BangCourse" style="width: clamp(40px, 5vw, 50px);">
+                        <h1 style="font-weight: bold; font-size: clamp(12px, 5vw, 28px);">BangCourse</h1>
                     </div>
                     <div class="web-contact d-flex gap-4">
-                        <div class="container-footer-contact rounded-3" style="padding: 10px; border: 2px solid white;">
+                        <div class="container-footer-contact rounded-3 d-flex justify-content-center align-items-center">
                             <a href="#">
-                                <img src="./assets/whatsapp.png" alt="WhatsApp Icon" width="30px">
+                                <img src="./assets/whatsapp.png" alt="WhatsApp Icon" style="width: clamp(25px, 5vw, 34px);">
                             </a>
                         </div>
-                        <div class="container-footer-contact rounded-3" style="padding: 10px; border: 2px solid white;">
+                        <div class="container-footer-contact rounded-3 d-flex justify-content-center align-items-center">
                             <a href="#">
-                                <img src="./assets/whatsapp.png" alt="WhatsApp Icon" width="30px">
+                                <img src="./assets/whatsapp.png" alt="WhatsApp Icon" style="width: clamp(25px, 5vw, 34px);">
                             </a>
                         </div>
-                        <div class="container-footer-contact rounded-3" style="padding: 10px; border: 2px solid white;">
+                        <div class="container-footer-contact rounded-3 d-flex justify-content-center align-items-center">
                             <a href="#">
-                                <img src="./assets/phone-call.png" alt="Telepon Icon" width="30px">
+                                <img src="./assets/whatsapp.png" alt="WhatsApp Icon" style="width: clamp(25px, 5vw, 34px);">
                             </a>
                         </div>
-                        <div class="container-footer-contact rounded-3" style="padding: 10px; border: 2px solid white;">
+                        <div class="container-footer-contact rounded-3 d-flex justify-content-center align-items-center">
                             <a href="#">
-                                <img src="./assets/maps-and-flags.png" alt="Location Icon" width="30px">
+                                <img src="./assets/whatsapp.png" alt="WhatsApp Icon" style="width: clamp(25px, 5vw, 34px);">
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-2 d-flex flex-column gap-3">
-                    <h1>Contact</h1>
+                <div class="content-contact-footer col-xl-2 d-flex flex-column gap-3">
+                    <h1 style="font-weight: bolder;">Contact</h1>
                     <a href="#">WhatsApp 1</a>
                     <a href="#">WhatsApp 2</a>
                     <a href="#">Telepon</a>
                     <a href="#">Location</a>
                 </div>
-                <div class="col-xl-2 d-flex flex-column gap-3">
-                    <h1>Social</h1>
+                <div class="content-social-footer col-xl-2 d-flex flex-column gap-3">
+                    <h1 style="font-weight: bolder;">Social</h1>
                     <a href="#">WhatsApp 1</a>
                     <a href="#">WhatsApp 2</a>
                     <a href="#">Telepon</a>
                     <a href="#">Location</a>
 
                 </div>
-                <div class="col-xl-3 d-flex flex-column gap-3">
-                    <h1>Product</h1>
+                <div class="content-product-footer col-xl-2 d-flex flex-column gap-3">
+                    <h1 style="font-weight: bolder;">Product</h1>
                     <a href="#">Best Selling Product</a>
                     <a href="#">Featured Product</a>
                     <a href="#">Catalog Product</a>
@@ -314,16 +321,18 @@
                 <div class="col-xl-12"></div>
             </div>
             <div class="row py-5">
-                <div class="col-xl-6 d-flex justify-content-start align-items-center">
-                    <h4>Copyright © BangnoDev</h4>
-                </div>
-                <div class="col-xl-6 d-flex justify-content-end align-items-center">
+                <div class="col-xl-12 d-flex justify-content-end align-items-center">
                     <a href="#" class="d-flex gap-3">
                         <h4>Back to top</h4>
                         <img src="./assets/up-arrow.png" alt="Button Up" width="30px" height="30px">
                     </a>
                 </div>
             </div>
+        </div>
+
+        <!-- COPYRIGHT -->
+        <div class="container-fluid text-light py-2 d-flex justify-content-center align-items-center" style="background-color: #002140;">
+            <h4 style="font-size: clamp(12px, 5vw, 21px); ">Copyright © BangnoDev</h4>
         </div>
 
     </div>
