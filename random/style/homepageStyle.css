@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    font-family: "Inria Sans", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0px !important;
+}
+
+.second-main-container {
+    background-image: url("../assets/background_gunung.png");
+    background-position-x: center;
+    background-size: cover;
+}
+
+.nav-link {
+    font-weight: 700 !important;
+}
+
+.row-container-us {
+    box-shadow: 0px 0px 26px 1px rgba(0, 255, 255, 0.75);
+    -webkit-box-shadow: 0px 0px 26px 1px rgba(0, 255, 255, 0.75);
+    -moz-box-shadow: 0px 0px 26px 1px rgba(0, 255, 255, 0.75);
+}
+
+.lingkaran{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: #00FFFF;
+    filter: blur(5px);
+    position: absolute;
+}
+
+.highlight-background{
+    box-shadow: 0px 0px 26px 1px rgba(0, 255, 255, 0.75);
+    -webkit-box-shadow: 0px 0px 26px 1px rgba(0, 255, 255, 0.75);
+    -moz-box-shadow: 0px 0px 26px 1px rgba(0, 255, 255, 0.75);
+}
+
+.card{
+    border: 7px solid white !important;
+}
+
+
+#lingkaran-1{
+    height: 300px;
+    width: 300px;
+    top: 10px;
+    right: -50px;
+}
+
+.container-footer ul{
+    list-style-type: none;
+}
+
+.container-footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
