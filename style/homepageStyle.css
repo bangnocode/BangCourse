@@ -39,7 +39,7 @@ html,body
     position: relative;
 }
 
-.highlight-background{
+.highlight-background:hover{
     box-shadow: 0px 0px 26px 1px rgba(0, 255, 255, 0.75);
     -webkit-box-shadow: 0px 0px 26px 1px rgba(0, 255, 255, 0.75);
     -moz-box-shadow: 0px 0px 26px 1px rgba(0, 255, 255, 0.75);

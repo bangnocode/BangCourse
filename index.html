@@ -23,8 +23,8 @@ background: linear-gradient(135deg, rgba(0,255,255,1) 0%, rgba(0,25,56,1) 50%, r
 
             <!-- CONTAINER NAVBAR -->
             <div class="container-navbar" id="container-greeting">
-                <div style="border-bottom: 3px solid white;">
-                    <nav class="navbar" data-bs-theme="dark">
+                <div>
+                    <nav class="navbar fixed-top" data-bs-theme="dark" style="border-bottom: 3px solid white; background-color: #001938;">
                         <div class="container-fluid px-5">
                             <a class="navbar-brand text-light" href="#">
                                 <img src="./assets/logo_bangcourse.png" alt="Bootstrap" width="30" height="30">
@@ -44,13 +44,13 @@ background: linear-gradient(135deg, rgba(0,255,255,1) 0%, rgba(0,25,56,1) 50%, r
                                 </div>
                                 <div class="offcanvas-body">
                                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                        <a class="nav-link text-light px-4 py-3" href="#"
+                                        <a class="nav-link text-light px-4 py-3" href="./index.html#container-greeting"
                                             style="font-weight: 500;">Home</a>
-                                        <a class="nav-link text-light px-4 py-3" href="#"
+                                        <a class="nav-link text-light px-4 py-3" href="./index.html#content-about-us"
                                             style="font-weight: 500;">About Us</a>
-                                        <a class="nav-link text-light px-4 py-3" href="#"
+                                        <a class="nav-link text-light px-4 py-3" href="./katalog-kursus.html"
                                             style="font-weight: 500;">Course</a>
-                                        <a class="nav-link text-light px-4  py-3" href="#"
+                                        <a class="nav-link text-light px-4  py-3" href="./index.html#contact-us"
                                             style="font-weight: 500;">Contact</a>
                                         <a class="nav-link text-dark px-4 py-3" href="#"
                                             style="background-color: white; font-weight: bold;">Login</a>
@@ -84,7 +84,7 @@ background: linear-gradient(135deg, rgba(0,255,255,1) 0%, rgba(0,25,56,1) 50%, r
         </div>
 
         <!-- CONTAINER ABOUT US -->
-        <div class="container-about-us position-relative" style="top: -30px; z-index: 1;">
+        <div class="container-about-us position-relative" style="top: -60px; z-index: 1;" id="content-about-us">
             <div class="container-fluid">
                 <div class="row p-5 row-container-us"
                     style="background-color: #002140; height: max-content; border-radius: 60px;">
@@ -110,6 +110,7 @@ background: linear-gradient(135deg, rgba(0,255,255,1) 0%, rgba(0,25,56,1) 50%, r
                 </div>
             </div>
         </div> 
+
         <!-- CONTAINER HIGHLIGHT PRODUCT -->
         <div class="container-highlight-product"
             style="height: 100%; width: 100%; margin: 100px 0px;">
@@ -170,7 +171,7 @@ background: linear-gradient(135deg, rgba(0,255,255,1) 0%, rgba(0,25,56,1) 50%, r
             </div>
 
             <div class="exlpore-btn d-flex justify-content-center align-items-center">
-                <a href="#" class="text-decoration-none py-2 px-4 rounded text-dark"
+                <a href="./katalog-kursus.html" class="text-decoration-none py-2 px-4 rounded text-dark"
                     style="background-color: white; font-weight: bold; margin-top: 60px; font-size: clamp(15px, 5vw, 21px);">
                     Lihat Semua
                 </a>
@@ -179,7 +180,7 @@ background: linear-gradient(135deg, rgba(0,255,255,1) 0%, rgba(0,25,56,1) 50%, r
         </div>
 
         <!-- CONTAINER CONTACT US -->
-        <div class="container-contact-us highlight-background mt-5"
+        <div class="container-contact-us row-container-us mt-5" id="contact-us"
             style="border-top-left-radius: 60px; border-top-right-radius: 60px; background-color: #001938; padding: 70px 0px;">
             <div class="header-contact-us d-flex text-light flex-column align-items-center">
                 <div class="logo-bangcourse">
